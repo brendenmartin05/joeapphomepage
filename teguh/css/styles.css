@@ -92,7 +92,12 @@ h1,h2,h3,h4 {
 
 #home {
 	padding-top: 60px;
-	background: url("../img/bg1.jpg") top center no-repeat;
+	background:
+	 linear-gradient(
+      rgba(63, 104, 191, 0.45), 
+      rgba(63, 104, 191, 0.45)
+    ),
+	 url("../img/bg2.jpg") top center no-repeat;
 	background-attachment: fixed;
 	
 }
@@ -101,8 +106,25 @@ h1,h2,h3,h4 {
 	display: block;
     margin-left: auto;
     margin-right: auto;
-}
 
+}
+/*#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}*/
 .btn-navbar {
 	margin-top: 12px;
 }
@@ -124,7 +146,7 @@ h1,h2,h3,h4 {
 }
 
 .top-text h2 {
-	margin-top: 250px;
+	margin-top: 50px;
 	margin-bottom: 30px;
 	font-size: 50px;
 	line-height: 50px;
@@ -166,11 +188,15 @@ h1,h2,h3,h4 {
 
 p.small-text {
 	font-size: 18px;
+
 }
 
-#coming-soon {
-	font-weight: bold;
-}
+
+
+/*.well {
+	background-color: #11d3d3;
+	
+}*/
 
 
 /* 4. ABOUT SECTION
